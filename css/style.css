@@ -41,7 +41,7 @@ header {
 header .mylogo {
   width: 76px;
   height: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -76,7 +76,7 @@ header .mylogo {
 .texttype {
   width: 55px;
   height: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -90,7 +90,7 @@ header .mylogo {
 .texttype2 {
   width: 90px;
   height: 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -135,7 +135,7 @@ header .mylogo {
 .text {
   width: 327px;
   height: 146px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -149,7 +149,7 @@ header .mylogo {
 .title {
   margin-bottom: 15px;
   width: 327px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -165,7 +165,7 @@ header .mylogo {
 .title2 {
   margin: 0%;
   width: 327px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -184,7 +184,7 @@ header .mylogo {
   padding-bottom: 0%;
   margin: 0%;
   width: 327px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -200,7 +200,7 @@ header .mylogo {
 .text1 {
   width: 327px;
   margin: 0%;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -214,7 +214,7 @@ header .mylogo {
 .socialtitle {
   margin-top: 10px;
   width: 327px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -301,7 +301,7 @@ header .mylogo {
   height: 24px;
   background: #ebebff;
   border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -323,7 +323,7 @@ header .mylogo {
   align-items: center;
   padding: 12px;
   gap: 12px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -346,7 +346,7 @@ header .mylogo {
   align-items: center;
   padding: 12px;
   gap: 12px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -393,7 +393,7 @@ button:hover {
   align-items: center;
   padding: 12px;
   gap: 12px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -421,7 +421,7 @@ button:hover {
   align-items: center;
   padding: 12px;
   gap: 12px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -449,4 +449,82 @@ button:hover {
 
 .about > * {
   padding-left: 30px;
+}
+
+.form-wrap {
+  background-image: url(../images/contacback2.png);
+  width: 375px;
+  background-repeat: no-repeat;
+  padding-bottom: 210px;
+  display: flex;
+  flex-direction: column;
+  height: 795px;
+  margin-top: 30px;
+
+  background-color: #dfe1e6;
+}
+
+.form-text-wrap {
+  padding-top: 60px;
+  width: 375px;
+  left: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.form-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.form-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
+form {
+  margin: 0 auto;
+  width: 375px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  background: #ffffff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  height: 40px;
+  text-indent: 10px;
 }
