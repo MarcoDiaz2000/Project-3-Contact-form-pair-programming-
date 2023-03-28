@@ -7,11 +7,19 @@
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -48,8 +56,6 @@ For the third milestone of my portfolio website:
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[Portafomio Web]**
 - **[Movile ]**
 - **[Responsive website]**
@@ -64,11 +70,44 @@ For the third milestone of my portfolio website:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+### Prerequisites
+
+In order to run this project you need:
+
+<a href="https://nodejs.org/en">- Node.js</a>
+<a href="https://git-scm.com/downloads">- Git</a>
+
+### Setup
+
+Install Node Js on your local computer.
+
+### Install
+
+Install this project with:
+
+<pre> git clone https://github.com/MarcoDiaz2000/Project-3-Contact-form-pair-programming-.git</pre>
+
+### Usage
+
+To run the project, open the index file by double clicking
+
+### Run tests
+
+To run tests, run a live server on your computer..
+
+### Deployment
+
+You can deploy this project using <a href="https://github.com/"> Github</a>:
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Marco Díaz**
 
