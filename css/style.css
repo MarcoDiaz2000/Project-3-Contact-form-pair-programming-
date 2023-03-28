@@ -357,13 +357,6 @@ header .mylogo {
   flex-grow: 0;
 }
 
-button:hover {
-  background: #e65f1b;
-  color: #fff;
-  cursor: pointer;
-  transition: 1s;
-}
-
 .languages {
   display: flex;
   flex-direction: column;
@@ -460,7 +453,6 @@ button:hover {
   flex-direction: column;
   height: 795px;
   margin-top: 30px;
-
   background-color: #dfe1e6;
 }
 
@@ -473,7 +465,7 @@ button:hover {
 }
 
 .form-title {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -486,7 +478,7 @@ button:hover {
 }
 
 .form-text {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -529,27 +521,27 @@ textarea {
   text-indent: 10px;
 }
 
-input:focus,
-textarea:focus {
-  border-color: #000;
-}
-
 textarea {
   left: 20px;
   right: 20px;
   top: 0px;
   bottom: 0px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   height: 150px;
   text-indent: 10px;
 }
 
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
 form button {
   width: 152px;
   height: 54px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -562,7 +554,14 @@ form button {
   flex: none;
   order: 0;
   flex-grow: 0;
-  background: #ffffff;
+  background: #fff;
   border-radius: 8px;
   padding-left: 20px;
+}
+
+button:hover {
+  background: #e65f1b;
+  color: #fff;
+  cursor: pointer;
+  transition: 1s;
 }
