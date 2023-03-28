@@ -150,16 +150,22 @@
         </div>
     </div>
     </section>
+    <section class="form-wrap">
+        <div class="form-text-wrap">
+          <h2 class="form-title">Contact me</h2>
+          <p class="form-text">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
+            I’d love to help with it!</p>
+        </div>
 <form action="https://formspree.io/f/xoqznoww" method="post">
         <ul>
           <li>
-            <input type="text" id="name" name="user_name" placeholder="Lorem Ipsum" />
+            <input type="text" id="name" name="user_name" placeholder="Lorem Ipsum" maxlength="30" required />
           </li>
           <li>
-            <input type="email" id="mail" name="user_email" placeholder="loremipsum@gmail.com"/>
+            <input type="email" id="mail" name="user_email" placeholder="loremipsum@gmail.com" required/>
           </li>
           <li>
-            <textarea id="msg" name="user_message" placeholder="Write yor message here..."></textarea>
+            <textarea id="msg" name="user_message" required placeholder="Write yor message here..." maxlength="500"></textarea>
           </li>
           <li class="button">
             <button type="submit">Get in touch</button>

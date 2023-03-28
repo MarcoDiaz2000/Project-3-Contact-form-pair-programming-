@@ -528,3 +528,41 @@ textarea {
   height: 40px;
   text-indent: 10px;
 }
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  left: 20px;
+  right: 20px;
+  top: 0px;
+  bottom: 0px;
+  background: #ffffff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  height: 150px;
+  text-indent: 10px;
+}
+
+form button {
+  width: 152px;
+  height: 54px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: #ffffff;
+  border-radius: 8px;
+  padding-left: 20px;
+}
