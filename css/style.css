@@ -459,7 +459,6 @@ header .mylogo {
 .form-text-wrap {
   padding-top: 60px;
   width: 375px;
-  left: 0px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -474,7 +473,7 @@ header .mylogo {
   align-items: center;
   text-align: center;
   justify-content: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 .form-text {
@@ -510,11 +509,7 @@ textarea {
   font: 1em sans-serif;
   width: 300px;
   box-sizing: border-box;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  bottom: 0px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   height: 40px;
@@ -524,8 +519,6 @@ textarea {
 textarea {
   left: 20px;
   right: 20px;
-  top: 0px;
-  bottom: 0px;
   background: #fff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
